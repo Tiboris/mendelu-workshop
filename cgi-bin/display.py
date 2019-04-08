@@ -1,7 +1,7 @@
 #!/bin/python3
 # Let's do some headers
 print("Content-type: text/plain")
-print()
+print("------------------------")
 
 # Body starts now...
 with open("/dev/shm/output") as f:
